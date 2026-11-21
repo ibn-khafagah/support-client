@@ -1,0 +1,88 @@
+{
+    "name": "ibnkhafagah/support-client",
+    "description": "In-app support tickets for Laravel systems connected to the IbnKhafagah CRM: a typed client for the CRM ticket API, ready Blade screens and a JSON mode for SPAs, signed webhooks, change-log sync, an offline outbox and a \"report this problem\" button.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "support",
+        "helpdesk",
+        "tickets",
+        "crm",
+        "customer-support",
+        "webhooks",
+        "arabic",
+        "rtl",
+        "ibnkhafagah"
+    ],
+    "homepage": "https://github.com/ibn-khafagah/support-client",
+    "support": {
+        "issues": "https://github.com/ibn-khafagah/support-client/issues",
+        "source": "https://github.com/ibn-khafagah/support-client",
+        "docs": "https://github.com/ibn-khafagah/support-client/tree/main/docs"
+    },
+    "authors": [
+        {
+            "name": "IbnKhafagah for Development",
+            "homepage": "https://ibnkhafagah.com",
+            "role": "Maintainer"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "larastan/larastan": "^3.0",
+        "laravel/pint": "^1.18",
+        "orchestra/testbench": "^9.0|^10.0|^11.0",
+        "pestphp/pest": "^3.0|^4.0",
+        "pestphp/pest-plugin-laravel": "^3.0|^4.0"
+    },
+    "conflict": {
+        "laravel/framework": "<11"
+    },
+    "suggest": {
+        "laravel/framework": "Support screens, report button, webhook receiver and scheduled sync (^11|^12|^13)"
+    },
+    "autoload": {
+        "psr-4": {
+            "IbnKhafagah\\SupportClient\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "IbnKhafagah\\SupportClient\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "pest",
+        "lint": "pint --test",
+        "format": "pint",
+        "analyse": "phpstan analyse --memory-limit=1G",
+        "check": [
+            "@lint",
+            "@analyse",
+            "@test"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "IbnKhafagah\\SupportClient\\Laravel\\SupportClientServiceProvider"
+            ]
+        },
+        "branch-alias": {
+            "dev-main": "1.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

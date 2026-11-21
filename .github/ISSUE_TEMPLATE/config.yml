@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/ibn-khafagah/support-client/security/advisories/new
+    about: Report it privately, never in a public issue.
+  - name: Get an API key / commercial support
+    url: https://ibnkhafagah.com
+    about: Keys for connected systems are issued by IbnKhafagah for Development.

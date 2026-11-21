@@ -1,0 +1,11 @@
+includes:
+    - vendor/larastan/larastan/extension.neon
+
+# Level 3: the 1.0.0 code is the production code of the CRM release (commit 3176019) and passes it with no
+# suppressions. Raising the level is planned for 1.1 (array value types in docblocks, removing defensive checks the
+# Laravel contracts made redundant); levels 4-5 also report false positives for container-built clients and the
+# package's namespaced views, which will be handled then.
+parameters:
+    level: 3
+    paths:
+        - src
