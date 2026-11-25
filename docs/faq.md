@@ -2,7 +2,7 @@
 
 **Who can use this package?**
 Any Laravel 11–13 (or plain PHP 8.2+) system that has a key for the IbnKhafagah CRM ticket API – systems built by
-IbnKhafagah for Development, and systems built by other developers for clients whose support runs through it. The
+IbnKhafagah Software, and systems built by other developers for clients whose support runs through it. The
 key is issued per connected system by the provider.
 
 **Is it a helpdesk inside my app?**

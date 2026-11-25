@@ -108,7 +108,7 @@ Issues and pull requests are welcome – read [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## About
 
-Built and maintained by **[IbnKhafagah for Development](https://ibnkhafagah.com)** (ابن خفاجة للتطوير) – business
+Built and maintained by **[IbnKhafagah Software](https://ibnkhafagah.com)** (ابن خفاجة للبرمجيات) – business
 systems for Egyptian and Arab companies: accounting and ERP, CRM, e-invoicing, websites. The package powers the
 in-app support of the systems we deliver; other developers can connect their clients' systems too –
 [contact us](https://ibnkhafagah.com) for a key.

@@ -1,6 +1,6 @@
 # Getting started
 
-From zero to a working **Support** screen in your Laravel app. You need an API key for your system from the provider (IbnKhafagah for Development): it is issued in the CRM under the client's **Connected systems** and shown once.
+From zero to a working **Support** screen in your Laravel app. You need an API key for your system from the provider (IbnKhafagah Software): it is issued in the CRM under the client's **Connected systems** and shown once.
 
 ## Requirements
 
